@@ -1,6 +1,14 @@
-const express = require('express');
+// app.js
+import express from 'express';
+
 const app = express();
+
+// Middleware
+app.use(express.json());
+
+// Example route
 app.get('/', (req, res) => {
-res.send('Hello, GitHub Actions!');
+  res.send('Hello World from ES Module Express!');
 });
-module.exports = app;
+
+export default app;

@@ -1,6 +1,7 @@
 {
   "name": "Honghav-Leang-Lab1",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "repository": "https://github.com/honghav/Honghav-Leang-Lab1.git",
   "author": "honghav <honghav.leang@studnet.cadt.edu.kh>",
