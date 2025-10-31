@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Example route
 app.get('/', (req, res) => {
-  res.send('Hello World from ES Module Express!');
+  res.send('Hello, GitHub Actions!');
 });
 
 export default app;
